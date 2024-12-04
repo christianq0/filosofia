@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Línea de Tiempo: Filósofos Helenos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .timeline {
+            position: relative;
+            margin: 50px 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: #ddd;
+            transform: translateX(-50%);
+        }
+
+        .timeline-item {
+            position: relative;
+            width: 50%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .timeline-item:nth-child(odd) {
+            left: 0;
+        }
+
+        .timeline-item:nth-child(even) {
+            left: 50%;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #555;
+            border-radius: 50%;
+            top: 20px;
+            right: -10px;
+        }
+
+        .timeline-item:nth-child(even)::before {
+            left: -10px;
+            right: auto;
+        }
+
+        .timeline-content {
+            padding: 20px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .timeline-content h2 {
+            margin: 0 0 10px;
+            color: #555;
+        }
+
+        .timeline-content p {
+            margin: 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align:right;">Tarea 5</h1>
+        <h1>Línea de Tiempo</h1>
+        <h1>Conceptos Filósofos Helenos_Filosofía Antigua UNAD</h1>
+        <ul class="timeline">
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">7 Sabios</p>
+                    <h2>665-585 a.C.: Periandro, el Corinto</h2>
+                    <p>Reprende como si hubieras de ser inmediatamente amigo.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">7 Sabios</p>
+                    <h2>640-568 a.C.: Pitaco, el Lesbio</h2>
+                    <p>Date cuenta del momento oportuno.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">7 Sabios</p>
+                    <h2>638-558 a.C.: Solón, el Ateniense</h2>
+                    <p>Preocúpate de lo virtuoso, nada en demasía, cultiva el trato de amigos.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">7 Sabios</p>
+                    <h2>630-560 a.C.: Cleóbulo, el Líndico</h2>
+                    <p>La moderación es lo mejor.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">7 Sabios</p>
+                    <h2>624-546 a.C.: Tales de Mileto</h2>
+                    <p>Dificil es conocerse a sí mismo. Paso del mito al logos.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">7 Sabios</p>
+                    <h2>610-530 a.C.: Bías, el Prieneo</h2>
+                    <p>La mayoría de los hombres son malvados.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">7 Sabios</p>
+                    <h2>600-520 a.C.: Quilón, el Ladecemonio</h2>
+                    <p>Conocete a ti mismo. No desees lo imposible.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">Presocrático</p>
+                    <h2>610-546 a.C.: Anaximandro</h2>
+                    <p>Apeirón, principio de todas las cosas.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">Presocrático</p>
+                    <h2>500-428 a.C.: Anaxágoras</h2>
+                    <p>Nous, principio inteligente.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">Presocrático</p>
+                    <h2>535-475 a.C.: Heráclito</h2>
+                    <p>El cambio. El movimiento. El no ser.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">Presocrático</p>
+                    <h2>515-440 a.C.: Parménides</h2>
+                    <p>La permanencia. No hay cambio. El ser.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">Presocrático</p>
+                    <h2>490-430 a.C.: Zenón de Elea</h2>
+                    <p>Inventor de la dialéctica, reducción al absurdo, pensamiento infinitesimal.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">Presocrático</p>
+                    <h2>460-370 a.C.: Demócrito</h2>
+                    <p>Unión y separación de los átomos. Último de los naturalistas.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">Presocrático</p>
+                    <h2>460-370 a.C.: Leucipo</h2>
+                    <p>Fundador atomísmo antiguo.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">Sofismo</p>
+                    <h2>485-411 a.C.: Protágoras</h2>
+                    <p>El hombre es la medida de todas las cosas.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">Presocrático</p>
+                    <h2>470-399 a.C.: Sócrates</h2>
+                    <p>Método socrático. El bien. La justicia.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">Platonismo</p>
+                    <h2>427-347 a.C.: Platón</h2>
+                    <p>Mitos. Alegorías. Pólitica.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">Aristotelísmo</p>
+                    <h2>384-322 a.C.: Aristóteles</h2>
+                    <p>Lógica. Retórica. Categoría. Sustancia. Motor inmóvil. Acto. Potencia.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">Cinismo</p>
+                    <h2>404-323 a.C.: Diógenes de Sínope</h2>
+                    <p>Ciudadano del cosmos, no soy de ningún Lago. Lo artificioso es malo. Los animales son superiores.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">Escepticismo</p>
+                    <h2>360-270 a.C.: Pirrón de Elis</h2>
+                    <p>Epokhé o suspensión del juicio.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">Estoicismo</p>
+                    <h2>334-262 a.C.: Zenón de Citio</h2>
+                    <p>La naturaleza como guía. La virtud como bien supremo.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">Epicureísmo</p>
+                    <h2>342-270 a.C.: Pirrón de Elis</h2>
+                    <p>Correcta moderación del placer como bien supremo. Ataráxia y Aponía.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:right;font-size:60%;">Estoicismo</p>
+                    <h2>121-180 d.C.: Marco Aurelio</h2>
+                    <p>Aceptar lo que no podemos controlar. Pasiones como fuente del sufrimiento humano.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-content">
+                    <p style="text-align:left;font-size:60%;">Neoplatonísmo</p>
+                    <h2>205-270 d.C.: Plotino</h2>
+                    <p>Escepticismo académico. El Uno y sus hipóstasis</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
